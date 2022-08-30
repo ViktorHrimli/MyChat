@@ -1,0 +1,25 @@
+{
+  "name": "mychat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorHrimli/MyChat.git"
+  },
+  "author": "Viktor <viktorhrimli101@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorHrimli/MyChat/issues"
+  },
+  "homepage": "https://github.com/ViktorHrimli/MyChat#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
+}
